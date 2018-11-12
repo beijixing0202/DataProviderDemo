@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Test">
+  	<parameter name="path" value="D:\\workspace-99bill\\workspace-ta\\qa_test\\src\\param.properties"></parameter>
+    <classes>
+      
+      <class name="net.luculent.liems.test.date_0709"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

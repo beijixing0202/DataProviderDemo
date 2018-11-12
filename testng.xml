@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Test">
+  <parameter name="username" value="DEVQUERY"></parameter>
+  <parameter name="first-name"  value="Cedric"/>
+  <parameter name="last-name"  value="Han"/>
+    <classes>
+      <class name="net.luculent.liems.DemoTest1"/>
+      	<methods>
+      		<include name="test5"></include>
+      	</methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

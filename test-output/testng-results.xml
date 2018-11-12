@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="333" started-at="2018-07-11T03:07:57Z" finished-at="2018-07-11T03:07:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="333" started-at="2018-07-11T03:07:57Z" finished-at="2018-07-11T03:07:58Z">
+      <class name="net.luculent.liems.DataProviderDemo1">
+        <test-method status="PASS" signature="interfaceTest(java.util.Map)[pri:0, instance:net.luculent.liems.DataProviderDemo1@bd86fd3]" name="interfaceTest" duration-ms="15" started-at="2018-07-11T11:07:57Z" data-provider="data" finished-at="2018-07-11T11:07:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{用例名称=test101, 协议=https}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interfaceTest -->
+        <test-method status="PASS" signature="interfaceTest(java.util.Map)[pri:0, instance:net.luculent.liems.DataProviderDemo1@bd86fd3]" name="interfaceTest" duration-ms="1" started-at="2018-07-11T11:07:58Z" data-provider="data" finished-at="2018-07-11T11:07:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{用例名称=test102, 协议=https}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interfaceTest -->
+      </class> <!-- net.luculent.liems.DataProviderDemo1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
